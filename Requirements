@@ -1,0 +1,23 @@
+# Legal Document RAG Assistant - Requirements
+
+# Core ML and NLP libraries
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+nltk>=3.6
+
+# Document processing
+PyPDF2>=2.10.0
+python-docx>=0.8.11
+
+# Web scraping (for legal updates)
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+
+# Data handling
+pathlib2>=2.3.0
+
+# Optional: For advanced features
+# transformers>=4.20.0  # For transformer-based embeddings
+# faiss-cpu>=1.7.0     # For faster similarity search
+# streamlit>=1.10.0    # For web interface
